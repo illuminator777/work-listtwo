@@ -1,0 +1,102 @@
+header {
+    text-align: center;
+    color: #EB7E7F;   
+    background-color: #4A4F56;
+    line-height: 276%;   
+    line-height: 1.5; 
+}
+ 
+h1,
+h2{
+    line-height: 1.5;
+}
+
+body {
+    font-family: \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+}
+
+main {
+    width: 95%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 45%;
+    min-height: 100%;
+    background-color: #3B3F45;
+}
+.container {
+    margin: auto;
+    width: 68%;
+    color: white;
+    height: 10vh;
+    text-align: center;
+}
+
+  button {
+    text-align: center ;
+    color: #EB7E7F;   
+    background-color: #4A4F56;
+    margin: auto;
+    width: 68%;
+    margin-bottom: 0%;
+}
+
+.smalltxt {
+    font-size: 11px;
+}
+
+.button1,
+.button3,
+.button5 {
+    background-color: #88839E;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+ .button1::after {
+    text-decoration:line-through;
+ }
+  
+.button2,
+.button4,
+.button6 {
+    background-color: #7A7593;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.button1:hover,
+.button2:hover,
+.button3:hover,
+.button4:hover,
+.button5:hover,
+.button6:hover {
+    background-color: #625E77 ;
+  }
+
+
+
+.end {
+    color: #EB7E7F;   
+    background-color: #4A4F56;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input:checked + label {
+    text-decoration: line-through;}
